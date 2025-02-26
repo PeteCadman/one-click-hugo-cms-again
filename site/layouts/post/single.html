@@ -12,10 +12,5 @@
       {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
       {{ .Content }}
     </div>
-    {{ with .Resources.Get .Params.price }}
-      <div class="cms mw6">
-        <p>Interested? Price is: {{ .Price }}</p>
-      </div>
-    {{ end }}
   </div>
 {{ end }}
