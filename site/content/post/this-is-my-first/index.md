@@ -5,4 +5,4 @@ description: hello, this is an intro
 image: hedgerow-summer.jpg
 price: £121.00
 ---
-This is the body of the post
+This is the body of the post with extras
