@@ -8,6 +8,7 @@
     </div>
     <div class="cms mw6">
       <p>{{ .Description }}</p>
+      {{ with .Resources.Get .Params.price }}<p>Interested? Price is: {{ .Price }}</p>{{ end }}
       {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
       {{ .Content }}
     </div>
